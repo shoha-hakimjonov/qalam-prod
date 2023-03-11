@@ -100,6 +100,13 @@ app.translations = {
      сможет легко это сделать в нашем образовательном центре...",
      courses_details_7: "Узнать большое",
 
+    /*testimonials section*/
+    testimonials: "Отзывы",
+    our_students: "Наших Студентов",
+
+    /*galley section*/
+    our_gallery: "Наша Галлерея",
+
   },
 
   en: {

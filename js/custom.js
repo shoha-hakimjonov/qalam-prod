@@ -970,6 +970,9 @@ var THEMEMASCOT = {};
           // fullScreen plugin
           fullScreen: true, // Enable/Disable fullscreen mode.
 
+          //disable share option
+          share: false,
+          
           // zoom plugin
           zoom: true, // Enable/Disable zoom option.
           scale: 0.5, // Value of zoom should be incremented/decremented.
