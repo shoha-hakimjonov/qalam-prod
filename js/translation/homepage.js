@@ -107,6 +107,8 @@ app.translations = {
     /*galley section*/
     our_gallery: "Наша Галлерея",
 
+    
+
   },
 
   en: {
@@ -168,6 +170,54 @@ app.translations = {
 
     /* courses section */
     our_courses: "Our Courses",
+    courses_details: "Details",
+
+    /*english kids*/
+    to_14: "up to 14",
+    english_kids_title: "English Language (kids)",
+    english_kids_desc: "Learning English in Qalam is organized at all levels \
+    (Beginner, Elementary, Pre-intermediate, Intermediate, Upper-Intermediate, IELTS, TOEFL) in groups and individually. ",
+    courses_details_2: "Details",
+    /*english*/
+    from_14: "from 14",
+    english_adult_title: "English Language (adults)",
+    english_adult_desc: "Our students become not just excellent students, \
+    they successfully pass international exams, enter the world's best universities...",
+     courses_details_3: "Details",
+
+    /*mathematics school students*/
+    math_for_schoolers: "For School Students",
+    math_schoolers_title: "Math Courses",
+    math_schoolers_desc: "Arithmetic in the educational center \"Qalam\" is divided into two parts, \"ARITHMETICS 1\",\
+     which includes all the main topics of the first and second grades and \"ARITHMETICS 2\", which includes all the main topics ",
+     courses_details_4: "Details",
+
+    /*math university*/
+    math_for_uni: "For Students",
+    math_uni_title: "Math Courses",
+    math_uni_desc: "During the study of this course, students will master all the skills of solving trigonometric problems.",
+    courses_details_5: "Details",
+
+    /*mental arithmetics*/
+    mental_for: "All",
+    mental_title: "Mental Arithmetics",
+    mental_desc: "The educational center \"Qalam\" is the only center responsible for the official\
+     representation of the CRI \"Pythagoras\" of the Russian Federation ",
+    courses_details_6: "Details",
+
+    /*russian lang*/
+    russian_for: "All",
+    russian_title: "Russian Language",
+    russian_desc: "Our center offers effective teaching of the Russian language. All Russian language\
+     programs take into account the age and needs of each category of students...",
+     courses_details_7: "Details",
+
+    /*testimonials section*/
+    testimonials: "Reviews",
+    our_students: "Student Reviews",
+
+    /*galley section*/
+    our_gallery: "Our Gallery",
 
   },
 
