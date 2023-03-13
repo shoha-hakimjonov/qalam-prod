@@ -15416,7 +15416,7 @@ footer#footer.footer-inverted .widget.widget_archive ul > li, footer#footer.foot
       overflow: hidden; }
       .tm-sc-gallery.gallery-style1-current-theme .tm-gallery .tm-gallery-content-wrapper .tm-gallery-content:after {
         content: '';
-        background-color: rgba(24, 19, 60, 0.75);
+        background-color: hwb(26 23% 55% / 0.815);
         position: absolute;
         top: 20px;
         left: 20px;

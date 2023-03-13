@@ -20,7 +20,7 @@ function setLanguage(language) {
     var currentLanguage = getCookie('lang');
 
     app.lang = app.translations[currentLanguage] || app.translations.ru;
-    //changeLogo(currentLanguage);
+    changeLogo(language);
     for (const property in app.lang) {
         // console.log(`${property}: ${app.lang[property]}`);
         if (document.body.querySelector('[data-translate="'+property+'"]') != null) {
@@ -55,13 +55,13 @@ function eraseCookie(name) {
     document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
 }
 
-// function changeLogo(lang) {
-//     var img = document.getElementById("logo_img");
-//     if (lang == 'en') {
-//         img.src = "img/logo_en.png";
-//     } else if (lang == 'ru') {
-//         img.src = "img/logo_ru.png";
-//     } else if (lang == 'tj') {
-//         img.src = "img/logo_tj.png";
-//     }
-// }
+function changeLogo(lang) {
+    var img = document.body.querySelector('[data-translate="logo"]');
+    if (lang == 'en') {
+        img.src = "images/logo-eng.png";
+    } else if (lang == 'ru') {
+        img.src = "images/logo-rus.png";
+    } else if (lang == 'tj') {
+        img.src = "images/logo-tj.png";
+    }
+}
